@@ -1,6 +1,6 @@
 # MeetingSchedulerWidget
 
-<h3>Introduction<h3>
+<h3>Introduction</h3>
 Meeting Scheduler Widget is a template which can be used to create a meeting form.
   
 <h3>Screenshot</h3>
