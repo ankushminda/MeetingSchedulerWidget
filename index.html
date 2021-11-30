@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+	    <h1>MEETING SCHEDULER WIDGET</h1>
+    </div>
+        <div class="banner-top">
+				<h2>I am interested in meeting</h2>
+				<div class="banner-bottom">
+					<div class="bnr-one">
+						
+						<div class="bnr-right">
+							<input class="date" id="datepicker" type="text" value="When/date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'When/date';}" required=>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bnr-one">
+						<div class="bnr-right">
+							<input type="text" value="City" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'City';}" required=>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="bnr-one">
+						<div class="bnr-left">
+							<input type="text" value="Time" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Time';}" required=>
+						</div>
+						<div class="bnr-right1">
+							<input type="text" value="Contact" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contact';}" required=>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<p>We will get back to you for confirmation or clarification</p>
+					<div class="bnr-btn">
+						<form>
+							<input type="submit" value="Send information">
+						</form>
+					</div>
+				</div>
+				<!---start-date-piker---->
+		<link rel="stylesheet" href="https://p.w3layouts.com/demos/meeting_box_widget/web/css/jquery-ui.css" />
+		<script src="https://p.w3layouts.com/demos/meeting_box_widget/web/js/jquery-ui.js"></script>
+			<script>
+				$(function() {
+				$( "#datepicker,#datepicker1" ).datepicker();
+				});
+			</script>
+	<!---/End-date-piker---->
+</div>
+<div class="footer">
+	<p>Copyright © Meeting Scheduler Widget. All Rights Reserved | Designed by <a href="http://ankush.zcat.in" target="_blank">Ankush Minda</a></p>
+</div>
+</html>
