@@ -5,4 +5,4 @@ Meeting Scheduler Widget is a template which can be used to create a meeting for
   
 <h3>Screenshot</h3>
 
-![Screen Shot 2021-11-30 at 23 24 35](https://user-images.githubusercontent.com/26448060/144102092-5ff31f6a-ec29-4a57-a202-757f3699d47e.png)
+![image](https://user-images.githubusercontent.com/26448060/144739837-c75cd0ca-7c20-45e1-8e45-61b7115de9b7.png)
