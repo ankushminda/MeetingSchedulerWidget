@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Exo);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;	
+}
 
 /* start editing from here */
 a {
@@ -59,7 +63,7 @@ body {
 	margin-top:1%;
 }
 .header h1 {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color:#FFF;
 	font-size:45px;
 	text-transform:uppercase;
@@ -73,8 +77,8 @@ body {
     width: 30%;
     padding: 2em 30px;
     background: #EF4836;
-    font-family: 'Exo', sans-serif;
-	border-radius: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4px;
 }
 .banner-top h2 {
     text-align: center;
@@ -82,7 +86,7 @@ body {
     font-weight: 600;
     margin: 0 0 6% 0;
     color: #fff;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 .banner-bottom{
@@ -107,7 +111,7 @@ body {
 	width: 95%;
 	color: #9E9E9E;
 	outline: none;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 14px;
 	padding: 10px 10px;
 	border: none;
@@ -145,7 +149,7 @@ body {
     width: 92%;
     color: #9E9E9E;
     outline: none;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     padding: 10px 10px;
     border: none;
@@ -156,7 +160,7 @@ body {
     width: 95%;
     color: #9E9E9E;
     outline: none;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     padding: 10px 10px;
     border: none;
@@ -173,7 +177,7 @@ body {
 .footer {
 	margin-top:5%;
 	text-align:center;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .footer p {
 	color:#FFF;
